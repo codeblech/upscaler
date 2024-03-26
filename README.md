@@ -34,3 +34,10 @@ This will upscale myimage.jpg by 200% using the Bicubic resampling method and sa
 You can get more information about each argument by running the script with the `-h` or `--help` option:
 `python local-upscale.py --help`
 This will display a help message with a description of the script and its arguments.
+
+
+## Note
+I wrote this script when I was collecting some posters online and printing them out for my room. I had to upscale each one manually through some web tool. Using this script, it could be done in a single command.
+
+## Next Steps
+Next step would be to incorporate https://letsenhance.io/ AI upscaler, either using an already available command line client or a headless browser
