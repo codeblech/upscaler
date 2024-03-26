@@ -20,7 +20,7 @@ You can run the script from the command line like this:
   + 4 is `Lanczos`
 + `output_path`: The path where you want to save the upscaled image.
 
-Replace <image_path>, <upscale_percentage>, <resampling_option>, and <output_path> with your actual values.
+Replace `<image_path>`, `<upscale_percentage>`, `<resampling_option>`, and `<output_path>` with your actual values.
 
 For example:
 
