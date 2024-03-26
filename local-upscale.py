@@ -19,11 +19,6 @@ def upscale_image(image_path, upscale_percentage, resampling_option, output_path
     new_width = int(width * (upscale_percentage / 100))
     new_height = int(height * (upscale_percentage / 100))
 
-    # Select the resampling filter based on the user's choice
-    # 1. Nearest Neighbor (for pixel art or sharp edges)
-    # 2. Bilinear (for smooth gradients)
-    # 3. Bicubic (for high-quality resizing)
-    # 4. Lanczos (for high-quality resizing with sharper results)
     if resampling_option == 1:
         resampling_filter = Image.NEAREST
     elif resampling_option == 2:
